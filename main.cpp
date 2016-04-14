@@ -3,18 +3,20 @@
 #include <thread>
 #include <algorithm>
 
+using namespace std;
+
 int main()
 {
-    std::vector<std::thread>workers;
-    for(int i=0; i < 10; ++i)
+    vector <thread> workers;
+    for(int i=0; i < 100; ++i)
     {
-        workers.push_back(std::thread([i]()
+        workers.push_back(thread([i]()
         {
-            std::cout<<"Hi from thread "<< i << "!\n";
+            cout<<"Hi from thread " << i << "!\n";
         }));
     }
-    std::cout<<"Hi from main!\n";
-    std::for_each(workers.begin(),workers.end(),[](std::thread & th)
+    cout<<"Hi from main!\n";
+    for_each(workers.begin(),workers.end(),[](thread & th)
     {
         th.join();
     });
