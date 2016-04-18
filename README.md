@@ -13,5 +13,5 @@ ya los sorprenderemos! :ghost::ghost::ghost::ghost:
 
 ## Desarrollado por:
  - Max Portocarrero :wolf::panda_face::dragon:
- - Yajaida Ccollque :cherry_blossom:::four_leaf_clover:
+ - Yajaida Ccolqque :cherry_blossom:::four_leaf_clover:
  - Farley Velarde :rat:
